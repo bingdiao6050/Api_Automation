@@ -17,21 +17,21 @@ class paramters():
 
     #url
     def url(self):
-        url = "http://192.168.1.213:9100/" #测试环境
+        url = "http://***.***.1.***:***/" #测试环境
         return url
 
     #host
     def host(self):
-        host = "192.168.1.213:9100" #测试环境
+        host = "192.***.1.***:***" #测试环境
         return host
 
     #Origin
     def origin(self):
-        origin = "http://192.168.1.213:20000"
+        origin = "http://***.***.1.***:***"
         return origin
 
     #Referer
     def referer(self):
-        referer = "http://192.168.1.213:20000/"
+        referer = "http://***.***.1.***:***/"
         return referer
 
