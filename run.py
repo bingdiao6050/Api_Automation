@@ -60,7 +60,7 @@ if __name__ =="__main__":
     # run 所有用例
     runner.run(all_case())
     fp.close()
-    mail("bingdiao6050@qq.com")
+    mail("****@qq.com")
 
 
 
