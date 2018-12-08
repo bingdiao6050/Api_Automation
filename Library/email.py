@@ -14,14 +14,14 @@ from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
 
-def mail(recipient='bingdiao6050@126.com'):
-    sender = 'bingdiao6050@126.com'  # 发件人邮箱
-    my_pass = 'hushifang,658'  # 授权码
+def mail(recipient='****@126.com'):
+    sender = '***@126.com'  # 发件人邮箱
+    my_pass = '*******'  # 授权码
     toRecipient = recipient.split(",")
 
     # 创建一个带附件的实例
     msg = MIMEMultipart()
-    msg['From'] = Header("API自动化测试报告 <%s>" % "胡世方", 'utf-8')  # 显示的发件人
+    msg['From'] = Header("API自动化测试报告 <%s>" % "胡XX", 'utf-8')  # 显示的发件人
     msg['To'] = ",".join(toRecipient)  # 显示多个发件人
     msg['Subject'] = Header("自动化测试报告", "utf-8")  # 邮件主题
 
@@ -61,4 +61,4 @@ def mail(recipient='bingdiao6050@126.com'):
 
 
 if __name__ == "__main__":
-    mail("bingdiao6050@qq.com")
+    mail("*****@qq.com")
