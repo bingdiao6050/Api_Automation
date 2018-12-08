@@ -1,0 +1,4 @@
+18-12-08 11:42:16 operation.py{funcName:url}[line:18] INFO ≤‚ ‘µÿ÷∑£∫http://192.168.1.213:9100/api/v1/repository/quota/add
+18-12-08 11:42:16 operation.py{funcName:dump}[line:24] INFO {'price': 9000, 'disabled': 'false'}
+18-12-08 11:42:16 operation.py{funcName:url}[line:18] INFO ≤‚ ‘µÿ÷∑£∫http://192.168.1.213:9100/api/v1/repository/quota/add
+18-12-08 11:42:16 operation.py{funcName:dump}[line:24] INFO {'price': 19000, 'disabled': 'false'}
