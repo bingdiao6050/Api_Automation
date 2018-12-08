@@ -53,7 +53,7 @@ if __name__ =="__main__":
     runner = HTMLTestRunner.HTMLTestRunner(
                 stream=open(report_path, "wb"),
                 title='支付接口自动化测试报告',
-                tester='胡世方',
+                tester='***',
                 description='This demonstrates the report output by HTMLTestRunner.'
                 )
 
